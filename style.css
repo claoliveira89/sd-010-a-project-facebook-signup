@@ -13,11 +13,24 @@
 }
 
 .facebook-logo {
+  margin-left: 100px;
   width: 200px;
 }
 
 .facebook-login {
   display: flex;
+  margin-right: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button-login {
+  padding: 5px;
+  margin-bottom: 19.5px;
+  background-color: rgb(50, 88, 163);
+  color: white;
+  border: 1px solid rgb(26, 66, 145);
+  border-radius: 10px;
+  box-shadow: 5px 2.5px 2.5px black;
 }
 
 .form-group {
@@ -34,15 +47,40 @@
 
 .main-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .left-content {
-  width: 800px;
+  width: 500px;
+}
+
+#facebook-slogan {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(50, 88, 163);
+}
+
+#facebook-networking {
+  margin-top: 30px;
 }
 
 .right-content {
   width: 300px;
+  margin-top: 50px;
+}
+
+.right-content h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(41, 40, 40);
+}
+
+.quick-easy {
+  margin: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(41, 40, 40);
 }
 
 .fullname {
@@ -57,6 +95,17 @@
 .birthdate {
   display: flex;
   flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#label-gender {
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.genders {
+  width: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #facebook-register {
@@ -65,4 +114,25 @@
 
 .checked {
   color: rgb(40, 40, 41);
+}
+
+.input-signup {
+  margin: 5px 5px 5px -1px;
+  padding: 10px;
+  width: 310px;
+  border: 1px solid rgb(41, 40, 40);
+  border-radius: 10px;
+  box-shadow: 3px 1.5px 1.5px black;
+}
+
+.fullname {
+  width: 150px;
+}
+
+.lastname {
+  margin-left: 4px;
+}
+
+.gender {
+  margin: 4.1px;
 }
